@@ -1,0 +1,10 @@
+body {
+  width: 100%;
+}
+header,
+nav,
+main,
+footer {
+  width: 80%;
+  margin: 0 auto;
+}
