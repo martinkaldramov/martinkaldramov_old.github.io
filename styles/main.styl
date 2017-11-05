@@ -14,3 +14,17 @@ nav ul
   display: flex
   justify-content: space-around
 
+
+/*!-----------------------------------------------------
+----------------- Main Section Styles ------------------
+--------------------------------------------------------*/
+
+main
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+
+main > article:not(:first-child)
+  background-color: blue
+  border: 5px solid red
+  flex-basis: 50%

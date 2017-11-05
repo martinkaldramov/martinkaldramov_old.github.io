@@ -12,3 +12,16 @@ nav ul {
   display: flex;
   justify-content: space-around;
 }
+/*-----------------------------------------------------
+----------------- Main Section Styles ------------------
+--------------------------------------------------------*/
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main > article:not(:first-child) {
+  background-color: #00f;
+  border: 5px solid #f00;
+  flex-basis: 50%;
+}
