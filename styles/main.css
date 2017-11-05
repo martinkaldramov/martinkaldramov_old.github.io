@@ -19,7 +19,7 @@ header p {
   align-self: center;
 }
 .logo {
-  background-color: #404244;
+  background: linear-gradient(#282828, #151515);
   padding: 3%;
 }
 .logo h1 {
