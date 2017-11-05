@@ -4,13 +4,24 @@
 header {
   display: flex;
   justify-content: space-between;
+  padding: 4% 0;
 }
 /*-----------------------------------------------------
 ----------------- Navigation styles --------------------
 --------------------------------------------------------*/
+nav {
+  margin-bottom: 2%;
+}
 nav ul {
   display: flex;
-  justify-content: space-around;
+}
+nav ul li {
+  color: #f00;
+  background-color: #808080;
+  flex-basis: 35.29%;
+  text-align: center;
+  padding: 2% 0;
+  border: 1px solid #fff;
 }
 /*-----------------------------------------------------
 ----------------- Main Section Styles ------------------
