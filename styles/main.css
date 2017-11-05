@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Audiowide");
 @import url("https://fonts.googleapis.com/css?family=Play");
+@import url("https://fonts.googleapis.com/css?family=Abel");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300");
+body {
+  font-family: sans-serif;
+}
 /*-----------------------------------------------------
 --------------------- Header styles --------------------
 --------------------------------------------------------*/
@@ -55,6 +60,10 @@ main > article:not(:first-child) {
   background-color: #808080;
   border: 5px solid #f00;
   flex-basis: 50%;
+}
+.content h3 {
+  font-family: 'Play', sans-serif;
+  font-size: 1.2rem;
 }
 /*-----------------------------------------------------
 ------------------ Footer Styles -----------------------
