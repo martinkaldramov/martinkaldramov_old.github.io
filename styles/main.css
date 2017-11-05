@@ -18,6 +18,9 @@ header p {
   font-size: 1.2rem;
   align-self: center;
 }
+header span {
+  color: #f17126;
+}
 .logo {
   background: linear-gradient(#282828, #151515);
   padding: 3%;
