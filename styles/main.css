@@ -21,7 +21,13 @@ main {
   flex-wrap: wrap;
 }
 main > article:not(:first-child) {
-  background-color: #00f;
+  background-color: #808080;
   border: 5px solid #f00;
   flex-basis: 50%;
+}
+/*-----------------------------------------------------
+------------------ Footer Styles -----------------------
+--------------------------------------------------------*/
+footer {
+  display: flex;
 }
