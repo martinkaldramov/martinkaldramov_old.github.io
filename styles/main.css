@@ -33,6 +33,14 @@ header p {
   text-transform: uppercase;
   font-family: 'Audiowide', cursive;
 }
+.top-line {
+  background: linear-gradient(#ff822e, #fffc99, #fffc99, #fffc99, #ff822e);
+  width: 100%;
+  height: 4px;
+  position: relative;
+  top: -1.5rem;
+  box-shadow: 0 7px 57px 7px #ff822e;
+}
 /*-----------------------------------------------------
 ----------------- Navigation styles --------------------
 --------------------------------------------------------*/
