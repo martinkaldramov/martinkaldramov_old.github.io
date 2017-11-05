@@ -1,0 +1,30 @@
+{
+  "name": "martinkaldramov.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinkaldramov/martinkaldramov.github.io.git"
+  },
+  "keywords": [
+    "web",
+    "development",
+    "css3",
+    "html5",
+    "portfolio",
+    "lint"
+  ],
+  "author": "Martin Kaldramov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinkaldramov/martinkaldramov.github.io/issues"
+  },
+  "homepage": "https://github.com/martinkaldramov/martinkaldramov.github.io#readme",
+  "devDependencies": {
+    "stylelint-config-recommended": "^1.0.0"
+  }
+}
