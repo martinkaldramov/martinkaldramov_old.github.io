@@ -1,5 +1,10 @@
-//Audiowave Google Font URI
+//Google Fonts
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+//Font Variables
+$logo-font = 'Audiowide', cursive;
+$main-font = 'Play', sans-serif;
 
 /*!-----------------------------------------------------
 --------------------- Header styles --------------------
@@ -10,19 +15,26 @@ header
   justify-content: space-between
   padding: 3% 0
 
+  p
+    font-family: $main-font
+    font-size: 1.2rem    
+    align-self: center
+
 .logo
-  padding: 3% 0
+  padding: 3%
+
+  h1
+    font-size: 2.5rem
+
+  h3
+    font-size: 1.5rem
   
+
 .logo h1
 .logo h3
   text-transform: uppercase
-  font-family: 'Audiowide', cursive;
+  font-family: $logo-font
 
-.logo h1
-  font-size: 2.5rem
-
-.logo h3
-  font-size: 1.5rem
 
 /*!-----------------------------------------------------
 ----------------- Navigation styles --------------------
@@ -32,8 +44,10 @@ nav ul
   display: flex
   
   li
-    color: red
+    color: white
     background-color: grey
+    font-family: $main-font
+    text-transform: uppercase
     flex-basis: 35.29%;
     text-align: center;
     padding: 2% 0;

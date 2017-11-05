@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Audiowide");
+@import url("https://fonts.googleapis.com/css?family=Play");
 /*-----------------------------------------------------
 --------------------- Header styles --------------------
 --------------------------------------------------------*/
@@ -7,19 +8,24 @@ header {
   justify-content: space-between;
   padding: 3% 0;
 }
-.logo {
-  padding: 3% 0;
+header p {
+  font-family: 'Play', sans-serif;
+  font-size: 1.2rem;
+  align-self: center;
 }
-.logo h1,
-.logo h3 {
-  text-transform: uppercase;
-  font-family: 'Audiowide', cursive;
+.logo {
+  padding: 3%;
 }
 .logo h1 {
   font-size: 2.5rem;
 }
 .logo h3 {
   font-size: 1.5rem;
+}
+.logo h1,
+.logo h3 {
+  text-transform: uppercase;
+  font-family: 'Audiowide', cursive;
 }
 /*-----------------------------------------------------
 ----------------- Navigation styles --------------------
@@ -28,8 +34,10 @@ nav ul {
   display: flex;
 }
 nav ul li {
-  color: #f00;
+  color: #fff;
   background-color: #808080;
+  font-family: 'Play', sans-serif;
+  text-transform: uppercase;
   flex-basis: 35.29%;
   text-align: center;
   padding: 2% 0;
